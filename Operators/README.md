@@ -1,5 +1,7 @@
 # Execution result of Reduction operators
 
+Reduction_operators.v
+
 ```
 ---------------
 AND all bits:
