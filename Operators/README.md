@@ -1,4 +1,6 @@
 # Execution result of Reduction operators
+
+```
 ---------------
 AND all bits:
 AND  reduction of 4'b0111 is: 0
@@ -22,3 +24,4 @@ XOR  reduction of 3'b000 is: 0
 If only 1s => If number of 1s is odd => Result is 1 // If number of 1s is even => Result is 0
 XOR  reduction of 4'b1111 is: 0
 XOR  reduction of 3'b111 is: 1
+```
