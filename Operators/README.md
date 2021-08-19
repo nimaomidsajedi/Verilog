@@ -1,6 +1,6 @@
-# Execution result of Reduction operators
+# Execution result of operators
 
-Reduction_operators.v
+Reduction_operators.v :
 
 ```
 ---------------
@@ -27,3 +27,24 @@ If only 1s => If number of 1s is odd => Result is 1 // If number of 1s is even =
 XOR  reduction of 4'b1111 is: 0
 XOR  reduction of 3'b111 is: 1
 ```
+
+---------------------------------
+Bitwise_operators.v :
+
+```
+---------------
+Extend number of different bit size:
+Extend of 8'b1111 is: 00001111
+Extend of 8'b0111 is: 00000111
+Extend of 8'bX111 is: xxxxx111
+Extend of 8'bz011 is: zzzzz011
+---------------
+AND each bits:
+Bitwise AND of 4'b0111 and 4'b1001 is: 0001
+---------------
+OR each bits:
+Bitwise OR of 4'b0101 and 4'b1001 is: 1101
+---------------
+XOR each bits:
+Bitwise XOR of 4'b0111 and 4'b1001 is: 1110
+````
