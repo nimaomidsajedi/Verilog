@@ -32,19 +32,27 @@ XOR  reduction of 3'b111 is: 1
 Bitwise_operators.v :
 
 ```
----------------
-Extend number of different bit size:
-Extend of 8'b1111 is: 00001111
-Extend of 8'b0111 is: 00000111
-Extend of 8'bX111 is: xxxxx111
-Extend of 8'bz011 is: zzzzz011
----------------
-AND each bits:
-Bitwise AND of 4'b0111 and 4'b1001 is: 0001
----------------
-OR each bits:
-Bitwise OR of 4'b0101 and 4'b1001 is: 1101
----------------
-XOR each bits:
-Bitwise XOR of 4'b0111 and 4'b1001 is: 1110
+# ---------------
+# Extend number of different bit size:
+# Extend of 8'b1111 is: 00001111
+# Extend of 8'b0111 is: 00000111
+# Extend of 8'bX111 is: xxxxx111
+# Extend of 8'bz011 is: zzzzz011
+# Extend of 3'd180 is: 4
+# Extend of 4'd180 is:  4
+# Extend of 5'd180 is: 20
+# Extend of 6'd180 is: 52
+# Extend of 3'b11001100 is: 100
+# Extend of 4'b11001100 is: 1100
+# Extend of 5'b11001100 is: 01100
+# Extend of 6'b11001100 is: 001100
+# ---------------
+# AND each bits:
+# Bitwise AND of 4'b0111 and 4'b1001 is: 0001
+# ---------------
+# OR each bits:
+# Bitwise OR of 4'b0101 and 4'b1001 is: 1101
+# ---------------
+# XOR each bits:
+# Bitwise XOR of 4'b0111 and 4'b1001 is: 1110
 ````
